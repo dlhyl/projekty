@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<root>
+    <points>
+        <macroregion name="Západné Slovensko">
+            <region name="Bratislavský kraj">
+                <city long="17.1053009" lat="48.1478004">Bratislava</city>
+                <city long="17.2649002" lat="48.287899">Pezinok</city>
+                <city long="17.3957996" lat="48.2201004">Senec</city>
+                <city long="17.0153999" lat="48.4355011">Malacky</city>
+                <city long="17.0289993" lat="48.2741013">Stupava</city>
+                <city long="17.3041" lat="48.3334999">Modra</city>
+                <city long="17.2089996" lat="48.2535019">Svätý Jur</city>
+            </region>
+            <region name="Nitriansky kraj">
+                <city long="18.0828991" lat="48.3091011">Nitra</city>
+                <city long="18.1611004" lat="47.9852982">Nové Zámky</city>
+                <city long="18.1277008" lat="47.7617989">Komárno</city>
+                <city long="18.6033993" lat="48.2184982">Levice</city>
+                <city long="18.1686993" lat="48.5575981">Topoľčany</city>
+                <city long="17.8728008" lat="48.1506004">Šaľa</city>
+                <city long="18.3945999" lat="48.3824005">Zlaté Moravce</city>
+                <city long="17.9838009" lat="47.9234009">Kolárovo</city>
+                <city long="18.7173996" lat="47.7980003">Štúrovo</city>
+                <city long="18.1763" lat="48.0876007">Šurany</city>
+                <city long="18.3052006" lat="48.2429008">Vráble</city>
+                <city long="18.1931992" lat="47.8792">Hurbanovo</city>
+                <city long="18.9452991" lat="48.0690002">Šahy</city>
+                <city long="18.6515007" lat="48.046299">Želiezovce</city>
+                <city long="18.125" lat="47.9263992">Nesvady</city>
+                <city long="18.5282993" lat="48.2882996">Tlmače</city>
+            </region>
+            <region name="Trnavský kraj">
+                <city long="17.5921993" lat="48.3726997">Trnava</city>
+                <city long="17.8311005" lat="48.5882988">Piešťany</city>
+                <city long="17.6142006" lat="47.9916">Dunajská Streda</city>
+                <city long="17.8010006" lat="48.4239998">Hlohovec</city>
+                <city long="17.3610001" lat="48.6755981">Senica</city>
+                <city long="17.7308006" lat="48.2853012">Sereď</city>
+                <city long="17.2248993" lat="48.8451004">Skalica</city>
+                <city long="17.7236996" lat="48.1887016">Galanta</city>
+                <city long="17.3073006" lat="48.0285988">Šamorín</city>
+                <city long="17.1595001" lat="48.8073006">Holíč</city>
+                <city long="17.7665005" lat="47.8558006">Veľký Meder</city>
+                <city long="17.7206993" lat="48.6204987">Vrbové</city>
+                <city long="17.5741997" lat="47.8911018">Gabčíkovo</city>
+                <city long="17.6394997" lat="48.2038002">Sládkovičovo</city>
+                <city long="17.1186008" lat="48.7155991">Gbely</city>
+                <city long="17.1504993" lat="48.6361008">Šaštín-Stráže</city>
+                <city long="17.7612" lat="48.4462013">Leopoldov</city>
+            </region>
+            <region name="Trenčiansky kraj">
+                <city long="18.0347996" lat="48.8931007">Trenčín</city>
+                <city long="18.6189995" lat="48.7720985">Prievidza</city>
+                <city long="18.4452" lat="49.1165009">Považská Bystrica</city>
+                <city long="18.1711998" lat="48.9590988">Dubnica nad Váhom</city>
+                <city long="18.3684998" lat="48.6255989">Partizánske</city>
+                <city long="17.8281994" lat="48.7565994">Nové Mesto nad Váhom</city>
+                <city long="18.2562008" lat="48.7182999">Bánovce nad Bebravou</city>
+                <city long="18.3269997" lat="49.1240005">Púchov</city>
+                <city long="18.757" lat="48.7266006">Handlová</city>
+                <city long="17.5622005" lat="48.7495995">Myjava</city>
+                <city long="18.1422997" lat="48.9356995">Nová Dubnica</city>
+                <city long="17.6905003" lat="48.7783012">Stará Turá</city>
+                <city long="18.1131992" lat="48.9623985">Nemšová</city>
+                <city long="18.2318001" lat="48.9976997">Ilava</city>
+                <city long="18.5797997" lat="48.7779007">Bojnice</city>
+                <city long="17.5372009" lat="48.6641998">Brezová pod Bradlom</city>
+                <city long="18.5375996" lat="48.7170982">Nováky</city>
+                <city long="18.1646996" lat="48.9089012">Trenčianske Teplice</city>
+            </region>
+        </macroregion>
+
+        <macroregion name="Stredné Slovensko">
+            <region name="Žilinský kraj">
+                <city long="18.7381001" lat="49.2187004">Žilina</city>
+                <city long="18.9186001" lat="49.0620003">Martin</city>
+                <city long="19.6089001" lat="49.0821991">Liptovský Mikuláš</city>
+                <city long="19.3045006" lat="49.0810013">Ružomberok</city>
+                <city long="18.7865009" lat="49.4370003">Čadca</city>
+                <city long="19.2921009" lat="49.2081985">Dolný Kubín</city>
+                <city long="18.7833996" lat="49.3011017">Kysucké Nové Mesto</city>
+                <city long="18.5552998" lat="49.2223015">Bytča</city>
+                <city long="19.5515003" lat="49.3326988">Tvrdošín</city>
+                <city long="19.4804993" lat="49.4054985">Námestovo</city>
+                <city long="18.9197998" lat="49.1124001">Vrútky</city>
+                <city long="18.6236" lat="49.4042015">Turzovka</city>
+                <city long="19.7168999" lat="49.0357018">Liptovský Hrádok</city>
+                <city long="19.6105995" lat="49.3605003">Trstená</city>
+                <city long="18.8314991" lat="49.3860016">Krásno nad Kysucou</city>
+                <city long="18.8602009" lat="48.8628006">Turčianske Teplice</city>
+                <city long="18.6299992" lat="49.0887985">Rajec</city>
+                <city long="19.0335999" lat="49.115799">Turany</city>
+                <city long="18.6797009" lat="49.1268997">Rajecké Teplice</city>
+            </region>
+            <region name="Banskobystrický kraj">
+                <city long="19.1429996" lat="48.7355003">Banská Bystrica</city>
+                <city long="19.1224003" lat="48.5750999">Zvolen</city>
+                <city long="19.6604996" lat="48.3291016">Lučenec</city>
+                <city long="20.0151005" lat="48.3825989">Rimavská Sobota</city>
+                <city long="19.6406002" lat="48.8055992">Brezno</city>
+                <city long="18.8462009" lat="48.5875015">Žiar nad Hronom</city>
+                <city long="19.4158993" lat="48.5596008">Detva</city>
+                <city long="20.1110992" lat="48.6828003">Revúca</city>
+                <city long="19.3446007" lat="48.2066002">Veľký Krtíš</city>
+                <city long="19.8190002" lat="48.2699013">Fiľakovo</city>
+                <city long="18.8899002" lat="48.457901">Banská Štiavnica</city>
+                <city long="19.0636997" lat="48.3535004">Krupina</city>
+                <city long="19.5244007" lat="48.5778008">Hriňová</city>
+                <city long="19.9503994" lat="48.5784988">Hnúšťa</city>
+                <city long="18.6334991" lat="48.4253998">Nová Baňa</city>
+                <city long="20.3192005" lat="48.4217987">Tornaľa</city>
+                <city long="18.7047005" lat="48.4875984">Žarnovica</city>
+                <city long="19.7900009" lat="48.4315987">Poltár</city>
+                <city long="18.9127998" lat="48.7042999">Kremnica</city>
+                <city long="19.1352005" lat="48.6164017">Sliač</city>
+                <city long="19.9396" lat="48.6797981">Tisovec</city>
+                <city long="20.2322006" lat="48.6297989">Jelšava</city>
+                <city long="19.3313999" lat="48.2397003">Modrý Kameň</city>
+                <city long="18.8771992" lat="48.1705017">Dudince</city>
+            </region>
+        </macroregion>
+
+        <macroregion name="Východné Slovensko">
+            <region name="Košický kraj">
+                <city long="21.2542992" lat="48.7202988">Košice</city>
+                <city long="21.9113007" lat="48.7554016">Michalovce</city>
+                <city long="20.5695" lat="48.9424019">Spišská Nová Ves</city>
+                <city long="21.7161999" lat="48.6290016">Trebišov</city>
+                <city long="20.5305004" lat="48.6621017">Rožňava</city>
+                <city long="20.9974003" lat="48.6119003">Moldava nad Bodvou</city>
+                <city long="22.0753002" lat="48.5530014">Veľké Kapušany</city>
+                <city long="20.8707008" lat="48.9109001">Krompachy</city>
+                <city long="21.6495991" lat="48.7024994">Sečovce</city>
+                <city long="21.9747009" lat="48.4234009">Kráľovský Chlmec</city>
+                <city long="22.1762009" lat="48.7452011">Sobrance</city>
+                <city long="20.9305" lat="48.8511009">Gelnica</city>
+                <city long="20.3635998" lat="48.8191986">Dobšiná</city>
+                <city long="20.8890991" lat="48.6990013">Medzev</city>
+                <city long="21.8335991" lat="48.8725014">Strážske</city>
+                <city long="22.0834999" lat="48.4169006">Čierna nad Tisou</city>
+                <city long="20.7907009" lat="48.9477997">Spišské Vlachy</city>
+            </region>
+            <region name="Prešovský kraj">
+                <city long="21.2362003" lat="49.0018005">Prešov</city>
+                <city long="20.3013" lat="49.0561981">Poprad</city>
+                <city long="21.9071007" lat="48.9332008">Humenné</city>
+                <city long="21.2728996" lat="49.2938995">Bardejov</city>
+                <city long="21.6793995" lat="48.8897018">Vranov nad Topľou</city>
+                <city long="22.1483002" lat="48.9869003">Snina</city>
+                <city long="20.4260998" lat="49.1366005">Kežmarok</city>
+                <city long="20.6870003" lat="49.3013992">Stará Ľubovňa</city>
+                <city long="20.5853996" lat="49.0252991">Levoča</city>
+                <city long="21.0942993" lat="49.1021004">Sabinov</city>
+                <city long="21.5646992" lat="49.3055">Svidník</city>
+                <city long="21.6481991" lat="49.2019005">Stropkov</city>
+                <city long="20.2036991" lat="49.0592003">Svit</city>
+                <city long="20.4522991" lat="49.1878014">Spišská Belá</city>
+                <city long="20.9598999" lat="49.1521988">Lipany</city>
+                <city long="21.8999004" lat="49.2705002">Medzilaborce</city>
+                <city long="21.1905994" lat="49.0388985">Veľký Šariš</city>
+                <city long="21.5167007" lat="49.1148987">Giraltovce</city>
+                <city long="20.2152996" lat="49.1408997">Vysoké Tatry</city>
+                <city long="20.7481995" lat="48.9992981">Spišské Podhradie</city>
+                <city long="21.5000992" lat="49.0266991">Hanušovce nad Topľou</city>
+                <city long="20.5307007" lat="49.2568016">Podolínec</city>
+                <city long="20.3568993" lat="49.3834">Spišská Stará Ves</city>
+            </region>
+        </macroregion>
+    </points>
+    
+    <routes>
+        <route name="Kopaničiarska 40-ka">
+            <city long="17.5372009" lat="48.6641998">Brezová pod Bradlom</city>
+            <city long="17.5622005" lat="48.7495995">Myjava</city>
+            <city long="17.6905003" lat="48.7783012">Stará Turá</city>
+            <city long="17.8281994" lat="48.7565994">Nové Mesto nad Váhom</city>
+        </route>
+        <route name="Tatrovská vicemagistrála">
+            <city long="20.2036991" lat="49.0592003">Svit</city>
+            <city long="20.3013" lat="49.0561981">Poprad</city>
+            <city long="20.2152996" lat="49.1408997">Vysoké Tatry</city>
+            <city long="20.4260998" lat="49.1366005">Kežmarok</city>
+        </route>
+        <route name="Na východe nič nie je">
+            <city long="20.9974003" lat="48.6119003">Moldava nad Bodvou</city>
+            <city long="21.6495991" lat="48.7024994">Sečovce</city>
+            <city long="20.8890991" lat="48.6990013">Medzev</city>
+            <city long="21.9747009" lat="48.4234009">Kráľovský Chlmec</city>
+            <city long="20.5307007" lat="49.2568016">Podolínec</city>
+        </route>
+    </routes>
+</root>
