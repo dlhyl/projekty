@@ -1,25 +1,25 @@
-# Evolucne algoritmy
+# Evolutionary algorithms
 
-Evolucne algoritmy sluzia na prehladavanie a su vhodne na riesenie optimalizacnych uloh. Ja som riesil pomocou nich Problem obchodneho cestujuceho (TSP) a Zenovu zahradu (Zen's Garden).
+Evolutionary algorithms can be used to solve optimization problems. I've used EA to solve Travelling Salesman Problem (TSP) and Zen's Garden.
 
 
 ## Travelling Salesman Problem
 
-Zdrojovy kod - [TSP.py](evolucne_algoritmy/TSP.py)
+Source code - [TSP.py](evolucne_algoritmy/TSP.py)
 
-[Dokumentacia](evolucne_algoritmy/TSP_dokumentacia.pdf)
+[Documentation in Slovak](evolucne_algoritmy/TSP_dokumentacia.pdf)
 
-Na vyriesenie tohto NP-tazkeho problemu som pouzil 2 horolezecke algoritmy - Zakazane prehladavanie (Tabu Search) a Simulovane zihanie (Simulated Annealing) a Geneticky algoritmus.
+To find feasible solution for this NP-hard problem, I've used 2 hill-climbing algorithms (Tabu Search & Simulated Annealing) and Genetic algorithm (GA).
 
-Pri rieseni problemu som zistil, ako velmi je dolezite nastavit parametre co najvhodnejsie pri jednotlivych algoritmoch.
+I tested the program many times to find optimal settings for each algorithm.
 
-Vsetky 3 algoritmy som porovnal a taktiez som implementoval vizualizaciu priebehu hladanie pomocou kniznice ```matplotlib```.
+All 3 algorithms were compared and solution is visualized using ```matplotlib``` library.
 
 
 
-#### Porovnanie algoritmov
+#### Algorithms comparison
 
-![Porovnanie vysledkov](evolucne_algoritmy/images/comparison_TSP.png)
+![](evolucne_algoritmy/images/comparison_TSP.png)
 
 
 

@@ -1,0 +1,33 @@
+version: "3.8"
+services:
+  adonis:
+    container_name: "adonis-chudy-backend"
+    build: ./server/
+    ports:
+      - "3333:3333"
+    depends_on:
+      - "pg"
+    links:
+      - "pg"
+    command: bash -c "node ace migration:run && node ace db:seed && node server.js"
+  quasar:
+    container_name: "quasar-tucny-klient"
+    build: ./client/
+    ports:
+      - "8080:8080"
+    depends_on:
+      - "adonis"
+  pg:
+    container_name: "pg"
+    image: "postgres:13"
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=slack
+    volumes:
+      - db:/var/lib/postgresql/data
+volumes:
+  db:
+    name: db-volume

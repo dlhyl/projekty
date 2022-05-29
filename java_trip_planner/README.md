@@ -1,14 +1,14 @@
 # Potulky
 
-Potulky je desktopova aplikacia v Jave 8 s vlastnym Swing GUI, ktora umoznuje planovanie turistickych, cyklistickych a vodackych vyletov.
+Potulky is desktop application with custom Swing GUI developed in Java 8. It allows users to plan their tourist, bicycle or canoeing trips.
 
-## Uvodna obrazovka
+## Splash page
 ![](images/splash.png)
 
-## Prihlasovanie
+## Login
 ![](images/login.png)
 
-## Hlavne menu
+## Main menu
 ![](images/menu.png)
 
 ## Panel vyletu

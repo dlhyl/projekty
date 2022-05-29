@@ -1,0 +1,51 @@
+[
+  {
+    "element": "h1",
+    "content": "Vesmirna hra"
+  },
+  {
+    "element": "div",
+    "id": "space",
+    "children": [
+      {
+        "element": "canvas",
+        "id": "space-canvas",
+        "width": 528,
+        "height": 576
+      }
+    ]
+  },
+  {
+    "element": "button",
+    "id": "start",
+    "content": "Start",
+    "onclick": "startGame();"
+  },
+  {
+    "element": "button",
+    "id": "reset",
+    "content": "Reset",
+    "onclick": "resetGame();"
+  },
+  {
+    "element": "div",
+    "style": "margin-top: 20px",
+    "children": [
+      {
+        "element": "button",
+        "content": "<",
+        "onclick": "ws.send('37');"
+      },
+      {
+        "element": "button",
+        "content": "Shoot",
+        "onclick": "ws.send('32');"
+      },
+      {
+        "element": "button",
+        "content": ">",
+        "onclick": "ws.send('39');"
+      }
+    ]
+  }
+]

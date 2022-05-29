@@ -1,0 +1,18 @@
+[
+  {
+    "element": "h1",
+    "content": "Vesmirna hra"
+  },
+  {
+    "element": "div",
+    "id": "space",
+    "children": [
+      {
+        "element": "canvas",
+        "id": "space-canvas",
+        "width": 528,
+        "height": 576
+      }
+    ]
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "element": "h2",
+    "content": "Register"
+  },
+  {
+    "element": "form",
+    "id": "form-register",
+    "method": "post",
+    "onsubmit": "return register();",
+    "children": [
+      {
+        "element": "div",
+        "children": [
+          {
+            "element": "label",
+            "content": "E-mail",
+            "for": "email"
+          },
+          {
+            "element": "input",
+            "id": "email",
+            "type": "email",
+            "name": "email",
+            "required": "required"
+          }
+        ]
+      },
+      {
+        "element": "div",
+        "children": [
+          {
+            "element": "label",
+            "content": "Login",
+            "for": "login"
+          },
+          {
+            "element": "input",
+            "id": "login",
+            "type": "text",
+            "name": "login",
+            "required": "required"
+          }
+        ]
+      },
+      {
+        "element": "div",
+        "children": [
+          {
+            "element": "label",
+            "content": "Password",
+            "for": "password1"
+          },
+          {
+            "element": "input",
+            "id": "password1",
+            "type": "password",
+            "name": "password1",
+            "required": "required"
+          }
+        ]
+      },
+      {
+        "element": "div",
+        "children": [
+          {
+            "element": "label",
+            "content": "Repeat password",
+            "for": "password2"
+          },
+          {
+            "element": "input",
+            "id": "password2",
+            "type": "password",
+            "name": "password2",
+            "required": "required"
+          }
+        ]
+      },
+      {
+        "element": "div",
+        "children": [
+          {
+            "element": "label",
+            "content": "First name & Last name",
+            "for": "name"
+          },
+          {
+            "element": "input",
+            "id": "name",
+            "type": "text",
+            "name": "name",
+            "required": "required"
+          }
+        ]
+      },
+      {
+        "element": "input",
+        "type": "submit",
+        "content": "Register"
+      }
+    ]
+  }
+]

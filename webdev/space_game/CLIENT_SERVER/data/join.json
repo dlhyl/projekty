@@ -1,0 +1,18 @@
+[
+  { "element": "br" },
+  {
+    "element": "label",
+    "for": "pin-input",
+    "content": "Enter PIN: "
+  },
+  {
+    "element": "input",
+    "type": "text",
+    "id": "pin-input"
+  },
+  {
+    "element": "button",
+    "content": "JOIN",
+    "onclick": "joinGame();"
+  }
+]

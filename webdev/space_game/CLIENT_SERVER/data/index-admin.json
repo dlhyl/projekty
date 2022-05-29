@@ -1,0 +1,90 @@
+[
+  {
+    "element": "div",
+    "id": "controls",
+    "children": [
+      {
+        "element": "button",
+        "id": "btn-register",
+        "content": "Log Out",
+        "onclick": "logOut();"
+      },
+      {
+        "element": "button",
+        "id": "btn-play",
+        "content": "Play a game",
+        "onclick": "createNewGame();"
+      },
+      {
+        "element": "button",
+        "id": "btn-join",
+        "content": "Join a game (PIN)",
+        "onclick": "getPage(\"join\");"
+      },
+      {
+        "element": "button",
+        "id": "btn-spectate",
+        "content": "Spectate games",
+        "onclick": "getGameList();"
+      },
+      {
+        "element": "button",
+        "id": "btn-gamelist",
+        "content": "View all games",
+        "onclick": "getUserGameList();"
+      },
+      {
+        "element": "button",
+        "id": "btn-import",
+        "content": "Import/Export",
+        "onclick": "getImportExport();"
+      }
+    ]
+  },
+  {
+    "element": "div",
+    "id": "main"
+  },
+  {
+    "element": "div",
+    "id": "assets",
+    "hidden": "hidden",
+    "children": [
+      {
+        "element": "img",
+        "id": "img-background",
+        "src": "assets/background.png"
+      },
+      {
+        "element": "img",
+        "id": "img-rocket_01",
+        "src": "assets/rocket_01.png"
+      },
+      {
+        "element": "img",
+        "id": "img-rocket_02",
+        "src": "assets/rocket_02.png"
+      },
+      {
+        "element": "img",
+        "id": "img-rocket_03",
+        "src": "assets/rocket_03.png"
+      },
+      {
+        "element": "img",
+        "id": "img-rocket_04",
+        "src": "assets/rocket_04.png"
+      },
+      {
+        "element": "img",
+        "id": "img-alien",
+        "src": "assets/alien.png"
+      },
+      {
+        "element": "img",
+        "id": "img-fire",
+        "src": "assets/fire.png"
+      }
+    ]
+  }
+]

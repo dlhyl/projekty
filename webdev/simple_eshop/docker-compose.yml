@@ -1,0 +1,27 @@
+version: "3.8"
+services:
+  server:
+    container_name: "server"
+    build: ./server/
+    ports:
+      - "8081:8081"
+    depends_on:
+      - "pg"
+    links:
+      - "pg"
+  client:
+    container_name: "client"
+    build: ./client/
+    ports:
+      - "3000:3000"
+  pg:
+    container_name: "pg"
+    image: "postgres:13"
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=vavjs
+    volumes:
+      - ./db.sql:/docker-entrypoint-initdb.d/db.sql

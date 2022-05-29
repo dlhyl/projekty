@@ -1,0 +1,53 @@
+[
+  {
+    "element": "h2",
+    "content": "Login"
+  },
+  {
+    "element": "form",
+    "id": "form-login",
+    "method": "post",
+    "onsubmit": "return signin();",
+    "children": [
+      {
+        "element": "div",
+        "children": [
+          {
+            "element": "label",
+            "content": "Login",
+            "for": "login"
+          },
+          {
+            "element": "input",
+            "id": "login",
+            "type": "text",
+            "name": "login",
+            "required": "required"
+          }
+        ]
+      },
+      {
+        "element": "div",
+        "children": [
+          {
+            "element": "label",
+            "content": "Password",
+            "for": "password"
+          },
+          {
+            "element": "input",
+            "id": "password",
+            "type": "password",
+            "name": "password",
+            "required": "required"
+          }
+        ]
+      },
+      {
+        "element": "input",
+        "type": "submit",
+        "content": "Login"
+      }
+    ]
+  }
+]
